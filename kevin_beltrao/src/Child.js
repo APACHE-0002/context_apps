@@ -9,6 +9,10 @@ export const Child = () => {
 
 
 /*
+-caso nao tenha o valor do estado atual
+-utilizar previousState, que ele pegara o valor do estado atual
+-antes de setar o novo valor setState
+
 <button onClick={() => {
                 setCount((previousState) => {
                     setCount(previousState - 1)
