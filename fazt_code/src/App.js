@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles.css'
 
 // COMPONENT
 import { Profile } from './components/Profile';
@@ -11,6 +10,7 @@ import { UserState } from './context/User/UserState';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+//bootstrap importado na raiz
 
 export default function App() {
   

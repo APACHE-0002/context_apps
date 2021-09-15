@@ -1,4 +1,10 @@
-body{
+#root{
     background-color: black;
     color: white;
+    height: 100vh;
+
+}
+
+h1,h3{
+    color: black;
 }

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useContext } from 'react';
-import { GET_PROFILE } from '../context/types';
 import { UserContext } from '../context/User/UserContext';
 
 export const UserList = () => {
